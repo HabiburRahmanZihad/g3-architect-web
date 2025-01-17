@@ -179,7 +179,9 @@ section{
 #experience-badge{
     font-size: 1.56rem;
     font-weight: 500;
-    padding: 45px;
+    padding: 45px 42px;
+    margin-top: -77px;
+    margin-left: -92px;
 }
 
 #experience-year{
@@ -242,8 +244,20 @@ section{
 }
 
 
+/* footer section */
 
+footer{
+    margin: 150px 240px;
+    max-width: 1440px;
+}
 
+.footer-content{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 40px 0;
+    border-radius: 8px;
+}
 
 
 
@@ -281,6 +295,14 @@ section{
     .enjoy-container{
         gap: 20px;
     }
+
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    footer{
+        margin: 60px 0px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px){
@@ -309,5 +331,14 @@ section{
 
     .enjoy-container{
         gap: 20px;
+    }
+
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    footer{
+        margin: 100px 20px;
     }
 }
